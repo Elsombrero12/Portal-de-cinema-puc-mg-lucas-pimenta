@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockbuster</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightslider.css">
+    
+    <script src="API.js"></script>
+    <script src="JQuery3.3.1.js"></script>
+    <script src="lightslider.js"></script>
+
+    <!------ Ícone de canto da Pg ------->
+    <link rel="shortcut icon" href="src/Camera.png"/>
+
+    <!------ FontAwesome ------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+    </style>
+
+</head>
+
+<body>
+
+<!------ Navegação ------->
+    
+<nav>
+
+    <!------ Logo------->
+        <a href="#" class="logo">
+            <img src="src/camera-film-roll-png.png"/>
+        </a>
+    <!------ Menu botão------->
+
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon">
+            
+        </span>
+    </label>
+
+
+
+    <!------ Menu ------->
+            <ul class="menu">
+                <li><a href="#">Destaques</a></li>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="#">Avaliações</a></li>
+                
+            </ul>
+
+    <!------ Pesquisa ------->
+    <div class="search">
+        <input type="text" id="txtPesquisa" placeholder="Onde você quer ir?">
+
+    <!------ Ícone de Pesquisa ------->
+    <button class="fas fa-search" id="  btnPesquisa"></button>
+     
+    </div>
+
+</nav>
+
+<section id="main">
+
+<!------ Showcase ------->
+<!------ Heading -------->
+<h1 class="showcase-heading">Destaques</h1>
+
+<!------ Showcase box------->
+
+<ul id="autoWidth" class="cs-hidden">
+  <!------ Box 1------->  
+    <li class="item-a">
+    <div class="showcase-box">
+        <a href="https://www.adorocinema.com/filmes/filme-173109/">
+        <img src="src/nasceumaestrela.jpg">
+        </a>
+    </div>
+    </li>
+
+  <!------ Box 2------->  
+  <li class="item-b">
+    <div class="showcase-box">
+        <a href="https://www.adorocinema.com/filmes/filme-251354/">
+        <img src="src/soul.jpg"></a>
+    </div>
+    </li>
+
+  <!------ Box 3------->  
+  <li class="item-c">
+    <div class="showcase-box">
+        <a href="https://www.adorocinema.com/filmes/filme-250594/">
+        <img src="src/lionking.jpg"></a>
+    </div>
+    </li>
+
+  <!------ Box 4------->  
+  <li class="item-d">
+    <div class="showcase-box">
+        <a href="https://www.adorocinema.com/filmes/filme-130533/">
+        <img src="src/doutorestranho2.jpg"></a>
+    </div>
+    </li>
+
+  <!------ Box 5------->  
+  <li class="item-e">
+    <div class="showcase-box">
+        <a href="https://www.adorocinema.com/filmes/filme-114782/">
+        <img src="src/maxresdefault.jpg"></a>
+    </div>
+    </li>
+
+
+</ul>
+</section>
+ <!------ Lançamentos------->
+ <section id="latest"></section>
+ <h2 class="latest-s">Lançamentos</h2>
+<!------ Slider------->
+<ul id="autoWidth2" class="cs-hidden">
+
+    <!------ box 1------->
+    <li class="item-a">
+    <div class="latest-box">
+        <div class="latest-b-img">
+            <a href="https://www.adorocinema.com/filmes/filme-240935/">
+            <img src="src/godzilla-vs-kong-6-1.jpg"></a>
+        </div>
+        <div class="latest-b-text">
+            <strong>Godzilla vs. Kong</strong>
+            <p>Ficção científica/Ação</p>
+        </div>
+    </div>
+</li>
+
+    <!------ box 2------->
+    <li class="item-b">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="https://www.adorocinema.com/filmes/filme-283679/">
+                <img src="src/rose_island.jpg"></a>
+            </div>
+            <div class="latest-b-text">
+                <strong>Rose Island</strong>
+                <p>Comédia dramática</p>
+            </div>
+        </div>
+    </li>
+
+        <!------ box 3------->
+        <li class="item-c">
+            <div class="latest-box">
+                <div class="latest-b-img">
+                    <a href="https://www.adorocinema.com/filmes/filme-265028/">
+                    <img src="src/Raya_F.jpg"></a>
+                </div>
+                <div class="latest-b-text">
+                    <strong>Raya e o Último Dragão</strong>
+                    <p>Animação</p>
+                </div>
+            </div>
+        </li>
+
+            <!------ box 4------->
+    <li class="item-d">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="https://www.netflix.com/title/81176731">
+                <img src="src/Lultimo_paradiso.jpg"></a>
+            </div>
+            <div class="latest-b-text">
+                <strong>O Último Paraíso</strong>
+                <p>Romance</p>
+            </div>
+        </div>
+    </li>
+
+        <!------ box 5------->
+        <li class="item-e">
+            <div class="latest-box">
+                <div class="latest-b-img">
+                    <a href="https://www.adorocinema.com/filmes/filme-215718/">
+                    <img src="src/tigre_branco.jpg"></a>
+                </div>
+                <div class="latest-b-text">
+                    <strong>O Tigre Branco</strong>
+                    <p>Romance</p>
+                </div>
+            </div>
+        </li>
+
+        <!------ box 6------->
+                <li class="item-f">
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <a href="https://www.adorocinema.com/filmes/filme-274868/">
+                            <img src="src/zona_de_combate.jpg"></a>
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>Zona de Combate</strong>
+                            <p>Ação</p>
+                        </div>
+                    </div>
+                </li>
+
+        <!------ box 7------->
+        <li class="item-g">
+            <div class="latest-box">
+                <div class="latest-b-img">
+                    <a href="https://www.adorocinema.com/filmes/filme-266065/">
+                    <img src="src/movie-poster-template-design-21a1c803fe4ff4b858de24f5c91ec57f_screen.jpg"></a>
+                </div>
+                <div class="latest-b-text">
+                    <strong>After</strong>
+                    <p>Ação</p>
+                </div>
+            </div>
+        </li>
+  </ul>
+<!------ Recomendações ------->
+<div class="movies-heading">
+    <h3>Avaliações</h3>
+</div>
+<section id="movies-list">
+
+<!------ Box 1 ------->
+    <div class="movies-box">
+<!------ Img ------->
+<div class="movies-img">
+    <div class="quality">⭐⭐⭐⭐⭐</div>
+    <a href="https://www.adorocinema.com/filmes/filme-263475/">
+    <img src="src/minimalist-movie-posters-no1194-my-lady-and-the-tramp-minimal-movie-poster-chungkong-art.jpg"></a>
+</div>
+<!------ Text ------->
+<a href="https://www.adorocinema.com/filmes/filme-263475/
+">Uma marca dos cinemas e da animação. Uma história extrovertida e admirável de A Dama e o Vagabundo. O filme peca nas cantorias, como a dos dois gatos e a do restaurante, que foram desnecessárias. Porém, marcou pela simplicidade da história, levando em conta que foi lançado em 1955.</a>
+</div>
+
+<!------ Box 2 ------->
+    <div class="movies-box">
+<!------ Img ------->
+<div class="movies-img">
+    <div class="quality">⭐⭐⭐⭐⭐</div>
+    <a href="https://www.adorocinema.com/filmes/filme-248825/">
+    <img src="src/detetive.jpg"></a>
+</div>
+<!------ Text ------->
+<a href="https://www.adorocinema.com/filmes/filme-248825/">Este filme foi sensacional além de ser um otimo filme estilo sessão da tarde estava cheio de referência a serie de jogos, os personagens principais bem carismaticos e com surpresa no final. Com certezaeste filme abre a possibilidade para bons filmes da franquia pokemon. Além disso é o um otimo filme para as crianças, bom para ver com toda a familia</a>
+</div>
+
+<!------ Box 3 ------->
+<div class="movies-box">
+    <!------ Img ------->
+    <div class="movies-img">
+        <div class="quality">⭐</div>
+        <a href="https://www.adorocinema.com/filmes/filme-197690/">
+        <img src="src/apenasumg.jpg"></a>
+    </div>
+    <!------ Text ------->
+    <a href="https://www.adorocinema.com/filmes/filme-197690/">Apenas um garoto em Nova york ao meu ver tem uma historia muito boa só que muito mal contada. Traições e segredos dá uma certa curiosidade e mais nada. *Podia ser melhor*</a>
+    </div>
+
+<!------ Box 4 ------->
+<div class="movies-box">
+    <!------ Img ------->
+    <div class="movies-img">
+        <div class="quality">⭐⭐⭐⭐</div>
+        <a href="https://www.adorocinema.com/filmes/filme-223543/">
+        <img src="src/scooby.jpg"></a>
+    </div>
+    <!------ Text ------->
+    <a href="https://www.adorocinema.com/filmes/filme-223543/">Scooby e sua turma encaram o seu maior e mais difícil mistério de todos os tempos: um plano maligno para liberar o cão fantasma, Cérbero, no mundo. Enquanto corre para impedir esse "apocãolipse" global, a turma descobre que Scooby tem um legado secreto e um destino épico maior do que qualquer um podia imaginar.</a>
+    </div>
+
+<footer>
+        <p>Copyright 2021 - Diciplina de Desenvolvimento de Interfaces Web - ICEI PUC Minas</p>
+
+    </footer>
+
+</section>
+
+
+
+
+
+
+    
+ <!------ Slider Script - intruções tiradas do site https://sachinchoolur.github.io/lightslider/examples.html ------->  
+<script>
+  $(document).ready(function() {
+    $('#autoWidth, #autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth, #autoWidth2').removeClass('cS-hidden');
+        } 
+    });
+});  
+</script>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Portal de Cinema",
+			"path": "."
+		},
+		{
+			"name": "Src",
+			"path": "Src"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portal de Cinema"
+	}
+}
